@@ -1,0 +1,32 @@
+body {
+ font-weight: 300;
+ color: #333;
+ font-size: 15px;
+ line-height: 1.6rem;
+}
+
+section h1 {
+    font-size: 5rem;
+}
+
+section p {
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #999
+}
+
+section h3 {
+    font-size: 50px;
+    color: tomato;
+    text-decoration: underline;
+    padding: 30px;
+    border: 1px solid yellowgreen;   
+}
+
+section h4 {
+    font-size: 50px;
+    color: blue;
+    text-decoration: underline;
+    padding: 30px;
+    border: 1px solid red;   
+}
