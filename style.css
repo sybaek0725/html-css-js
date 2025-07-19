@@ -18,3 +18,15 @@ section p {
     line-height: 3rem;
     color: #999;
 }
+
+.logo {
+    width: 20rem;
+}
+
+.logo a {
+    width: 100%;
+}
+
+.logo img {
+    width: 100%;
+}
