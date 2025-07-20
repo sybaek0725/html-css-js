@@ -3,31 +3,11 @@ body {
     line-height: 1.6em;
 }
 
-h1 {
-    font-weight: normal;
-    color: rgba(36, 106, 176, 0.8);
-    text-decoration: overline;
+.menu {
+    list-style: none;
 }
 
-a {
-    text-decoration: none
-}
-
-p.text {
-    font-weight: bold;
-    font-style: italic;
-    /* 텍스트 양쪽 정렬 */
-    /* text-align: justify */
-}
-
-p.copy {
-    /* 단어 첫 글자만 대문자로 */
-    text-transform: capitalize;
-    /* 단어 전체를 대문자로 */
-    text-transform: uppercase;
-    /* 단어 전체를 소문자로 */
-    text-transform: lowercase;
-    text-align: center;
-    text-align: right;
-
+.menu li:before {
+    content: '🐶';
+    padding-right: 10px;
 }
