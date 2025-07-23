@@ -1,50 +1,25 @@
-body {
-    font-size: 15px;
-    line-height: 1.6em;
+.box {
+    border: 1px solid red;
+    width: 600px;
+    height: 200px
+}
+
+.box div {
+    border: 1px solid blue;
+    width: 200px;
+    height: 200px;
+    float: left;
     box-sizing: border-box;
 }
 
-.parent {
-    border: 1px solid red;
-    width: 600px;
-    height: 200px;
-
-}
-
-.child {
-    border: 1px solid blue;
-    width: 200px;
+.box-content {
+    border: 10px solid orange;
+    width: 400px;
     height: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    text-align: center;
+    clear: both;
+    margin-top: 20px;
 }
-
-.descendants {
-    border: 1px solid green;
-    width: 100px;
-    height: 50px;
-}
-
-.box {
-    border: 1px solid orange;
-    width: 600px;
-    height: 200px;
-}
-
-.box>div {
-    border: 1px solid purple;
-    width: 200px;
-    height: 100px;
-    padding: 20px
-}
-
-.box>div div {
-    border: 1px solid purple;
-    width: 50px;
-    height: 50px;
-}
-
-/* .box div {
-    border: 1px solid purple;
-    width: 200px;
-    height: 100px;
-    padding: 20px
-} */
