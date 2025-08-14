@@ -3,35 +3,32 @@ body {
     
 }
 
-.parent {
+.section01 {
+    border: 5px solid #000;
     width: 600px;
-    border: 5px solid red;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.section01 article {
+    background-color: gold;
+    width: 200px;
+    height: 100px;
+    float: left;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.section02 {
+    width: 620px;
+    border: 5px solid #000;
     text-align: center;
 }
 
-.top {
-    float: none;
-    height: 50px;
-    line-height: 50px;
-    background-color:violet;
-}
-.left {
-    float: left;
+.section02 article {
+    background-color: gold;
     width: 200px;
     height: 100px;
-    line-height: 100px;
-    background-color:gainsboro;
-}
-.right {
-    float: right;
-    width: 400px;
-    height: 100px;
-    line-height: 100px;
-    background-color:sandybrown;
-}
-.bottom {
-    height: 50px;
-    line-height: 50px;
-    clear: both;
-    background-color:violet;
+    display: inline-block;
+    border: 1px solid red;
 }
